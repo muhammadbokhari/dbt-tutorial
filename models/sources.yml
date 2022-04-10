@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_layer
+    tables:
+      - name: orders
+      - name: customers
+
+  - name: stripe
+    tables:
+      - name: payments
